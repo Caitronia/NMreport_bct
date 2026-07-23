@@ -1,7 +1,7 @@
 import numpy as np
 
 x = np.array([1,2,3,4,5])
-y = np.array([2,4,8,16,32])
+y = np.array([3, 9, 27, 81, 243])
 Y = np.log10(y)
 n = len(x)
 B = (n*np.sum(x*Y)-np.sum(x)*np.sum(Y))/(n*np.sum(x*x)-(np.sum(x))**2)

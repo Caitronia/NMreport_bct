@@ -1,5 +1,5 @@
 def f(x):
-    return x**2
+    return x**3
 
 a = 0
 b = 6

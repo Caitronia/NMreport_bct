@@ -9,8 +9,8 @@ def lagrange(x, y, xp):
         yp += p*y[i]
     return yp
 
-x = [1,2,3]
-y = [1,4,9]
+x = [1, 3, 4]
+y = [2, 10, 17]
 
-xp = 2.5
+xp = 2
 print("Interpolated value =", lagrange(x,y,xp))

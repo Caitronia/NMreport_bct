@@ -1,7 +1,7 @@
 import numpy as np
 
 x = np.array([1, 2, 3, 4, 5])
-y = np.array([2, 5, 7, 10, 12])
+y = np.array([3, 6, 8, 11, 14, 17])
 
 n = len(x)
 

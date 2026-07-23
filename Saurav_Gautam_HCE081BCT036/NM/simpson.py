@@ -2,8 +2,8 @@ def f(x):
     return x**2
 
 a = 0
-b = 4
-n = 4
+b = 6
+n = 6
 h = (b-a)/n
 s = f(a)+f(b)
 
